@@ -13,7 +13,7 @@ chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 
 # Provide the path to the ChromeDriver executable
-chromedriver_path = '/Users/dimuthupahindra/Downloads/chromedriver_mac64 (2)/chromedriver'
+chromedriver_path = '/Users/xx/chromedriver'
 
 # Create a new ChromeDriver service
 service = Service(executable_path=chromedriver_path)
